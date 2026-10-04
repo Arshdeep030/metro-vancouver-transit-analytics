@@ -1,0 +1,34 @@
+{
+  "status": "SUCCESS",
+  "table_name": "realtime_trip_updates",
+  "row_count": 15121,
+  "null_counts": {
+    "null_trip_id": 0,
+    "null_route_id": 0,
+    "null_stop_id": 0
+  },
+  "duplicate_records": 7,
+  "dimension_matching": {
+    "matched_to_dim_trip": 15121,
+    "unmatched_to_dim_trip": 0,
+    "matched_trip_pct": 100.0,
+    "unmatched_route_dim": 0,
+    "unmatched_stop_dim": 2
+  },
+  "delay_category_distribution": {
+    "On Time": 4628,
+    "Severely Delayed": 1352,
+    "Unknown": 152,
+    "Early": 5940,
+    "Delayed": 3049
+  },
+  "delay_statistics": {
+    "min_delay_sec": -6406.0,
+    "max_delay_sec": 2487.0,
+    "avg_delay_sec": -42.7,
+    "min_delay_min": -106.77,
+    "max_delay_min": 41.45,
+    "avg_delay_min": -0.71
+  },
+  "extreme_delay_records": 33
+}

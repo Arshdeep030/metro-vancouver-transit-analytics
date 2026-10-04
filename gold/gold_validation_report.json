@@ -1,0 +1,192 @@
+{
+  "status": "SUCCESS",
+  "generated_at": "2026-10-04T02:45:07.994564+00:00",
+  "total_silver_observations": 103769,
+  "earliest_observation_utc": "2026-10-04 02:03:00",
+  "latest_observation_utc": "2026-10-04 02:35:00",
+  "unmatched_stop_records": {
+    "distinct_unmatched_stops": 3,
+    "unmatched_observations_preserved": 17
+  },
+  "datasets": {
+    "route_performance": {
+      "dataset_name": "route_performance",
+      "row_count": 175,
+      "grain": [
+        "route_id"
+      ],
+      "duplicate_grain_count": 0,
+      "null_grain_counts": {
+        "route_id": 0
+      },
+      "rate_violations_count": {
+        "on_time_rate": 0,
+        "delayed_rate": 0,
+        "severely_delayed_rate": 0,
+        "early_rate": 0,
+        "unknown_delay_rate": 0
+      },
+      "total_observations_reconciled": 103769,
+      "unknown_delay_count": 2434,
+      "extreme_delay_count": 2,
+      "earliest_observation": "2026-10-04 02:03:00",
+      "latest_observation": "2026-10-04 02:35:00",
+      "schema": [
+        "route_id: string",
+        "route_short_name: string",
+        "route_long_name: string",
+        "observation_count: bigint",
+        "avg_arrival_delay_minutes: double",
+        "avg_departure_delay_minutes: double",
+        "on_time_count: bigint",
+        "on_time_rate: double",
+        "delayed_count: bigint",
+        "delayed_rate: double",
+        "severely_delayed_count: bigint",
+        "severely_delayed_rate: double",
+        "early_count: bigint",
+        "early_rate: double",
+        "unknown_delay_count: bigint",
+        "unknown_delay_rate: double",
+        "extreme_delay_count: bigint",
+        "first_observed_at: timestamp",
+        "last_observed_at: timestamp"
+      ]
+    },
+    "stop_performance": {
+      "dataset_name": "stop_performance",
+      "row_count": 7108,
+      "grain": [
+        "stop_id"
+      ],
+      "duplicate_grain_count": 0,
+      "null_grain_counts": {
+        "stop_id": 0
+      },
+      "rate_violations_count": {
+        "on_time_rate": 0,
+        "delayed_rate": 0,
+        "severely_delayed_rate": 0,
+        "early_rate": 0,
+        "unknown_delay_rate": 0
+      },
+      "total_observations_reconciled": 103769,
+      "unknown_delay_count": 2434,
+      "extreme_delay_count": 2,
+      "earliest_observation": "2026-10-04 02:03:00",
+      "latest_observation": "2026-10-04 02:35:00",
+      "schema": [
+        "stop_id: string",
+        "stop_name: string",
+        "stop_lat: double",
+        "stop_lon: double",
+        "zone_id: string",
+        "observation_count: bigint",
+        "avg_arrival_delay_minutes: double",
+        "avg_departure_delay_minutes: double",
+        "on_time_count: bigint",
+        "on_time_rate: double",
+        "delayed_count: bigint",
+        "delayed_rate: double",
+        "severely_delayed_count: bigint",
+        "severely_delayed_rate: double",
+        "early_count: bigint",
+        "early_rate: double",
+        "unknown_delay_count: bigint",
+        "unknown_delay_rate: double",
+        "extreme_delay_count: bigint",
+        "first_observed_at: timestamp",
+        "last_observed_at: timestamp"
+      ]
+    },
+    "delay_analysis": {
+      "dataset_name": "delay_analysis",
+      "row_count": 1210,
+      "grain": [
+        "service_date",
+        "observation_hour",
+        "day_of_week",
+        "route_id",
+        "route_short_name",
+        "direction",
+        "delay_category"
+      ],
+      "duplicate_grain_count": 0,
+      "null_grain_counts": {
+        "service_date": 0,
+        "observation_hour": 0,
+        "day_of_week": 0,
+        "route_id": 0,
+        "route_short_name": 0,
+        "direction": 0,
+        "delay_category": 0
+      },
+      "rate_violations_count": {},
+      "total_observations_reconciled": 103769,
+      "unknown_delay_count": 2434,
+      "extreme_delay_count": 0,
+      "earliest_observation": "2026-10-04 02:03:00",
+      "latest_observation": "2026-10-04 02:35:00",
+      "schema": [
+        "observation_hour: int",
+        "day_of_week: string",
+        "route_id: string",
+        "route_short_name: string",
+        "direction: string",
+        "delay_category: string",
+        "observation_count: bigint",
+        "avg_delay_minutes: double",
+        "min_delay_minutes: double",
+        "max_delay_minutes: double",
+        "on_time_count: bigint",
+        "delayed_count: bigint",
+        "severely_delayed_count: bigint",
+        "early_count: bigint",
+        "unknown_delay_count: bigint",
+        "service_date: date"
+      ]
+    },
+    "daily_transit_metrics": {
+      "dataset_name": "daily_transit_metrics",
+      "row_count": 1,
+      "grain": [
+        "service_date"
+      ],
+      "duplicate_grain_count": 0,
+      "null_grain_counts": {
+        "service_date": 0
+      },
+      "rate_violations_count": {
+        "on_time_rate": 0,
+        "early_rate": 0,
+        "delayed_rate": 0,
+        "severely_delayed_rate": 0,
+        "unknown_delay_rate": 0
+      },
+      "total_observations_reconciled": 103769,
+      "unknown_delay_count": 2434,
+      "extreme_delay_count": 2,
+      "earliest_observation": "2026-10-04 02:03:00",
+      "latest_observation": "2026-10-04 02:35:00",
+      "schema": [
+        "service_date: date",
+        "observation_count: bigint",
+        "avg_delay_minutes: double",
+        "median_delay_minutes: double",
+        "on_time_count: bigint",
+        "on_time_rate: double",
+        "early_count: bigint",
+        "early_rate: double",
+        "delayed_count: bigint",
+        "delayed_rate: double",
+        "severely_delayed_count: bigint",
+        "severely_delayed_rate: double",
+        "unknown_delay_count: bigint",
+        "unknown_delay_rate: double",
+        "extreme_delay_count: bigint",
+        "first_observed_at: timestamp",
+        "last_observed_at: timestamp"
+      ]
+    }
+  }
+}

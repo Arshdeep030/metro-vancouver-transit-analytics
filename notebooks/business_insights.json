@@ -1,0 +1,367 @@
+{
+  "system_overview": {
+    "service_date": "2026-10-03",
+    "total_observations": 15121,
+    "system_on_time_rate": 0.3061,
+    "system_avg_delay_minutes": -0.71,
+    "system_median_delay_minutes": -0.25,
+    "severely_delayed_observations": 1352,
+    "severely_delayed_pct": 8.94
+  },
+  "top_10_lowest_on_time_routes": [
+    {
+      "route_id": "6628",
+      "route_short_name": "026",
+      "direction": "EAST",
+      "total_observations": 26,
+      "on_time_rate": 0.0,
+      "delay_rate": 1.0
+    },
+    {
+      "route_id": "6690",
+      "route_short_name": "253",
+      "direction": "WEST",
+      "total_observations": 26,
+      "on_time_rate": 0.0,
+      "delay_rate": 1.0
+    },
+    {
+      "route_id": "6708",
+      "route_short_name": "325",
+      "direction": "NORTH",
+      "total_observations": 18,
+      "on_time_rate": 0.0,
+      "delay_rate": 0.0
+    },
+    {
+      "route_id": "6648",
+      "route_short_name": "116",
+      "direction": "WEST",
+      "total_observations": 38,
+      "on_time_rate": 0.0,
+      "delay_rate": 1.0
+    },
+    {
+      "route_id": "6660",
+      "route_short_name": "152",
+      "direction": "WEST",
+      "total_observations": 26,
+      "on_time_rate": 0.0,
+      "delay_rate": 0.0
+    },
+    {
+      "route_id": "10232",
+      "route_short_name": "256",
+      "direction": "NORTH",
+      "total_observations": 12,
+      "on_time_rate": 0.0,
+      "delay_rate": 1.0
+    },
+    {
+      "route_id": "6661",
+      "route_short_name": "153",
+      "direction": "EAST",
+      "total_observations": 10,
+      "on_time_rate": 0.0,
+      "delay_rate": 1.0
+    },
+    {
+      "route_id": "31816",
+      "route_short_name": "360",
+      "direction": "WEST",
+      "total_observations": 11,
+      "on_time_rate": 0.0,
+      "delay_rate": 1.0
+    },
+    {
+      "route_id": "6664",
+      "route_short_name": "156",
+      "direction": "EAST",
+      "total_observations": 31,
+      "on_time_rate": 0.0,
+      "delay_rate": 1.0
+    },
+    {
+      "route_id": "30050",
+      "route_short_name": "187",
+      "direction": "NORTH",
+      "total_observations": 18,
+      "on_time_rate": 0.0,
+      "delay_rate": 1.0
+    }
+  ],
+  "top_10_highest_delay_routes": [
+    {
+      "route_id": "6648",
+      "route_short_name": "116",
+      "direction": "WEST",
+      "total_observations": 38,
+      "avg_delay_minutes": 13.95,
+      "max_delay_minutes": 13.95
+    },
+    {
+      "route_id": "30040",
+      "route_short_name": "174",
+      "direction": "EAST",
+      "total_observations": 23,
+      "avg_delay_minutes": 11.99,
+      "max_delay_minutes": 14.32
+    },
+    {
+      "route_id": "6661",
+      "route_short_name": "153",
+      "direction": "EAST",
+      "total_observations": 10,
+      "avg_delay_minutes": 9.52,
+      "max_delay_minutes": 10.77
+    },
+    {
+      "route_id": "6627",
+      "route_short_name": "025",
+      "direction": "WEST",
+      "total_observations": 236,
+      "avg_delay_minutes": 8.54,
+      "max_delay_minutes": 25.88
+    },
+    {
+      "route_id": "30050",
+      "route_short_name": "187",
+      "direction": "NORTH",
+      "total_observations": 18,
+      "avg_delay_minutes": 8.1,
+      "max_delay_minutes": 9.92
+    },
+    {
+      "route_id": "6805",
+      "route_short_name": "749",
+      "direction": "EAST",
+      "total_observations": 10,
+      "avg_delay_minutes": 7.28,
+      "max_delay_minutes": 8.03
+    },
+    {
+      "route_id": "6728",
+      "route_short_name": "410",
+      "direction": "EAST",
+      "total_observations": 97,
+      "avg_delay_minutes": 7.12,
+      "max_delay_minutes": 19.57
+    },
+    {
+      "route_id": "6628",
+      "route_short_name": "026",
+      "direction": "EAST",
+      "total_observations": 26,
+      "avg_delay_minutes": 7.04,
+      "max_delay_minutes": 9.33
+    },
+    {
+      "route_id": "38311",
+      "route_short_name": "R2",
+      "direction": "WEST",
+      "total_observations": 56,
+      "avg_delay_minutes": 6.37,
+      "max_delay_minutes": 13.37
+    },
+    {
+      "route_id": "31816",
+      "route_short_name": "360",
+      "direction": "WEST",
+      "total_observations": 11,
+      "avg_delay_minutes": 6.11,
+      "max_delay_minutes": 6.57
+    }
+  ],
+  "top_10_highest_delay_stops": [
+    {
+      "stop_id": "1596",
+      "stop_name": "Westbound W King Edward Ave @ Arbutus St",
+      "route_short_name": "025",
+      "total_observations": 5,
+      "avg_delay_minutes": 8.51
+    },
+    {
+      "stop_id": "1597",
+      "stop_name": "Westbound W King Edward Ave @ Yew St",
+      "route_short_name": "025",
+      "total_observations": 5,
+      "avg_delay_minutes": 8.36
+    },
+    {
+      "stop_id": "1594",
+      "stop_name": "Westbound W King Edward Ave @ Pine Cres",
+      "route_short_name": "025",
+      "total_observations": 5,
+      "avg_delay_minutes": 8.31
+    },
+    {
+      "stop_id": "1604",
+      "stop_name": "Westbound W 16 Ave @ Alma St",
+      "route_short_name": "025",
+      "total_observations": 5,
+      "avg_delay_minutes": 8.18
+    },
+    {
+      "stop_id": "1607",
+      "stop_name": "Westbound W 16 Ave @ Discovery St",
+      "route_short_name": "025",
+      "total_observations": 6,
+      "avg_delay_minutes": 8.17
+    },
+    {
+      "stop_id": "4485",
+      "stop_name": "Westbound Marine Dr @ Pemberton Ave",
+      "route_short_name": "R2",
+      "total_observations": 5,
+      "avg_delay_minutes": 8.17
+    },
+    {
+      "stop_id": "11367",
+      "stop_name": "Westbound Marine Dr @ Hamilton Ave",
+      "route_short_name": "R2",
+      "total_observations": 5,
+      "avg_delay_minutes": 8.15
+    },
+    {
+      "stop_id": "1598",
+      "stop_name": "Westbound W King Edward Ave @ Valley Dr",
+      "route_short_name": "025",
+      "total_observations": 5,
+      "avg_delay_minutes": 8.13
+    },
+    {
+      "stop_id": "122",
+      "stop_name": "Westbound W King Edward Ave @ Macdonald St",
+      "route_short_name": "025",
+      "total_observations": 5,
+      "avg_delay_minutes": 8.12
+    },
+    {
+      "stop_id": "13031",
+      "stop_name": "Westbound W King Edward Ave @ Quesnel Dr",
+      "route_short_name": "025",
+      "total_observations": 5,
+      "avg_delay_minutes": 8.01
+    }
+  ],
+  "hourly_delay_trends": [
+    {
+      "observation_hour": 13,
+      "total_observations": 15121,
+      "hourly_avg_delay": -0.28,
+      "hourly_on_time_rate": 0.3061
+    }
+  ],
+  "top_10_highest_severe_delay_routes": [
+    {
+      "route_id": "30040",
+      "route_short_name": "174",
+      "direction": "EAST",
+      "total_observations": 23,
+      "severely_delayed_count": 23,
+      "severe_delay_rate": 1.0
+    },
+    {
+      "route_id": "30050",
+      "route_short_name": "187",
+      "direction": "NORTH",
+      "total_observations": 18,
+      "severely_delayed_count": 18,
+      "severe_delay_rate": 1.0
+    },
+    {
+      "route_id": "31816",
+      "route_short_name": "360",
+      "direction": "WEST",
+      "total_observations": 11,
+      "severely_delayed_count": 11,
+      "severe_delay_rate": 1.0
+    },
+    {
+      "route_id": "6648",
+      "route_short_name": "116",
+      "direction": "WEST",
+      "total_observations": 38,
+      "severely_delayed_count": 38,
+      "severe_delay_rate": 1.0
+    },
+    {
+      "route_id": "6661",
+      "route_short_name": "153",
+      "direction": "EAST",
+      "total_observations": 10,
+      "severely_delayed_count": 10,
+      "severe_delay_rate": 1.0
+    },
+    {
+      "route_id": "6805",
+      "route_short_name": "749",
+      "direction": "EAST",
+      "total_observations": 10,
+      "severely_delayed_count": 10,
+      "severe_delay_rate": 1.0
+    },
+    {
+      "route_id": "6628",
+      "route_short_name": "026",
+      "direction": "EAST",
+      "total_observations": 26,
+      "severely_delayed_count": 25,
+      "severe_delay_rate": 0.9615
+    },
+    {
+      "route_id": "38311",
+      "route_short_name": "R2",
+      "direction": "WEST",
+      "total_observations": 56,
+      "severely_delayed_count": 36,
+      "severe_delay_rate": 0.6429
+    },
+    {
+      "route_id": "6627",
+      "route_short_name": "025",
+      "direction": "WEST",
+      "total_observations": 236,
+      "severely_delayed_count": 146,
+      "severe_delay_rate": 0.6186
+    },
+    {
+      "route_id": "6613",
+      "route_short_name": "003",
+      "direction": "SOUTH",
+      "total_observations": 74,
+      "severely_delayed_count": 44,
+      "severe_delay_rate": 0.5946
+    }
+  ],
+  "direction_analysis": [
+    {
+      "direction": "WEST",
+      "total_obs": 5472,
+      "avg_delay": -0.09,
+      "on_time_rate": 0.2953,
+      "delay_rate": 0.3359
+    },
+    {
+      "direction": "SOUTH",
+      "total_obs": 2329,
+      "avg_delay": -0.29,
+      "on_time_rate": 0.3199,
+      "delay_rate": 0.2581
+    },
+    {
+      "direction": "NORTH",
+      "total_obs": 2088,
+      "avg_delay": -0.59,
+      "on_time_rate": 0.2586,
+      "delay_rate": 0.2854
+    },
+    {
+      "direction": "EAST",
+      "total_obs": 5232,
+      "avg_delay": -0.25,
+      "on_time_rate": 0.3301,
+      "delay_rate": 0.2611
+    }
+  ]
+}

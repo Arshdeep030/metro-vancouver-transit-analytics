@@ -1,0 +1,70 @@
+# ==============================================================================
+# Metro Vancouver Transit Analytics - .gitignore
+# ==============================================================================
+
+# User constraint: Do NOT commit HTML and CSS code
+dashboard/
+*.html
+*.css
+
+# Secrets & Local Configurations
+local.settings.json
+.env
+*.env
+*.pem
+*.key
+*.pfx
+*.cer
+*.secret
+*.token
+
+# Data & Large Files (Lakehouse data lives in ADLS Gen2, not GitHub)
+data/
+*.pb
+*.parquet
+*.csv
+*.zip
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter & Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# macOS / OS Metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo

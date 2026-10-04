@@ -1,0 +1,30 @@
+{
+  "status": "SUCCESS",
+  "row_counts": {
+    "dim_route": 239,
+    "dim_stop": 8916,
+    "dim_trip": 63023,
+    "fact_scheduled_stop": 1844693
+  },
+  "null_counts": {
+    "dim_route_null_route_id": 0,
+    "dim_stop_null_stop_id": 0,
+    "dim_trip_null_trip_id": 0,
+    "dim_trip_null_route_id": 0,
+    "fact_null_trip_id": 0,
+    "fact_null_route_id": 0,
+    "fact_null_stop_id": 0,
+    "fact_null_stop_sequence": 0
+  },
+  "primary_key_duplicates": {
+    "dim_route_duplicates": 0,
+    "dim_stop_duplicates": 0,
+    "dim_trip_duplicates": 0
+  },
+  "foreign_key_orphans": {
+    "dim_trip_orphan_route_id": 0,
+    "fact_scheduled_stop_orphan_trip_id": 0,
+    "fact_scheduled_stop_orphan_route_id": 0,
+    "fact_scheduled_stop_orphan_stop_id": 0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "TRANSLINK_TRIP_UPDATES_URL": "https://gtfsapi.translink.ca/v3/gtfsrealtime?apikey=<YOUR_TRANSLINK_API_KEY>",
+    "STORAGE_ACCOUNT_NAME": "stransitanalytics",
+    "BRONZE_CONTAINER": "bronze",
+    "BRONZE_REALTIME_PATH": "gtfs_realtime/trip_updates"
+  }
+}
